@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
-          script: 
+          script: | 
             cd Github/streamlit-fuel-econ/                        
             git pull
 
